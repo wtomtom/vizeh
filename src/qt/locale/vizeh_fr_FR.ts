@@ -148,8 +148,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>Vizeh will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
-        <translation>Vizeh va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos VSXs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>vizeh will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
+        <translation>vizeh va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos VSXs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -207,16 +207,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a Vizeh Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse Vizeh que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a vizeh Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse vizeh que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The Vizeh address to sign the message with</source>
-        <translation>L'adresse Vizeh avec laquelle signer le message</translation>
+        <source>The vizeh address to sign the message with</source>
+        <translation>L'adresse vizeh avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -247,8 +247,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vizeh address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Vizeh</translation>
+        <source>Sign the message to prove you own this vizeh address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse vizeh</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -267,12 +267,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The Vizeh address the message was signed with</source>
-        <translation>L'adresse Vizeh avec laquelle le message a été signé</translation>
+        <source>The vizeh address the message was signed with</source>
+        <translation>L'adresse vizeh avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Vizeh address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Vizeh renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified vizeh address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse vizeh renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -506,8 +506,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a Vizeh address</source>
-        <translation>Envoyer des pièces à une adresse Vizeh</translation>
+        <source>Send coins to a vizeh address</source>
+        <translation>Envoyer des pièces à une adresse vizeh</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -518,16 +518,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for Vizeh</source>
-        <translation>Modifier les options de configuration pour Vizeh</translation>
+        <source>Modify configuration options for vizeh</source>
+        <translation>Modifier les options de configuration pour vizeh</translation>
     </message>
     <message>
-        <source>Sign messages with your Vizeh addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse Vizeh pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your vizeh addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse vizeh pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Vizeh addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Vizeh spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified vizeh addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse vizeh spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -538,8 +538,8 @@
         <translation>Crypter et décrypter les clés privées en utilisant une phrase secrète</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Vizeh network</source>
-        <translation><numerusform>%n connection(s) au réseau Vizeh</numerusform><numerusform>%n connection(s) au réseau Vizeh</numerusform></translation>
+        <source>%n active connection(s) to vizeh network</source>
+        <translation><numerusform>%n connection(s) au réseau vizeh</numerusform><numerusform>%n connection(s) au réseau vizeh</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -645,8 +645,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Vizeh.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (Vizeh.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (vizeh.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (vizeh.conf).</translation>
     </message>
 </context>
 <context>
@@ -842,8 +842,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Vizeh address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse Vizeh valide</translation>
+        <source>The entered address "%1" is not a valid vizeh address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse vizeh valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1461,8 +1461,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The Vizeh address to send the payment to</source>
-        <translation>L'adresse Vizeh à laquelle envoyer le paiement</translation>
+        <source>The vizeh address to send the payment to</source>
+        <translation>L'adresse vizeh à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1507,7 +1507,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The Vizeh address to sign the message with</source>
+        <source>The vizeh address to sign the message with</source>
         <translation>L</translation>
     </message>
     <message>
@@ -1535,16 +1535,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vizeh address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Vizeh</translation>
+        <source>Sign the message to prove you own this vizeh address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse vizeh</translation>
     </message>
     <message>
-        <source>The Vizeh address the message was signed with</source>
-        <translation>L'adresse Vizeh avec laquelle le message a été signé</translation>
+        <source>The vizeh address the message was signed with</source>
+        <translation>L'adresse vizeh avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Vizeh address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Vizeh renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified vizeh address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse vizeh renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1694,7 +1694,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>Vizeh-core</name>
+    <name>vizeh-core</name>
     <message>
         <source>Error</source>
         <translation>Erreur </translation>

@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * Vizeh RPC command dispatcher.
+ * vizeh RPC command dispatcher.
  */
 class CRPCTable
 {

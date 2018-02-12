@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Vizeh
-Comment=Vizeh P2P Cryptocurrency
-Comment[fr]=Vizeh, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Vizeh, eşten eşe kriptografik sanal para birimi
-Exec=Vizeh-qt %u
+Name=vizeh
+Comment=vizeh P2P Cryptocurrency
+Comment[fr]=vizeh, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=vizeh, eşten eşe kriptografik sanal para birimi
+Exec=vizeh-qt %u
 Terminal=false
 Type=Application
-Icon=vizee128
-MimeType=x-scheme-handler/Vizeh;
+Icon=vizeh128
+MimeType=x-scheme-handler/vizeh;
 Categories=Office;Finance;

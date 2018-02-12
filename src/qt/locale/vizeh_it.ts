@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Vizeh addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi Vizeh per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your vizeh addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi vizeh per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your Vizeh addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi Vizeh per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your vizeh addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi vizeh per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>Vizeh will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
-        <translation>Vizeh verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi VZH dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>vizeh will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
+        <translation>vizeh verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi VZH dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a Vizeh Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo Vizeh che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a vizeh Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo vizeh che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The Vizeh address to sign the message with</source>
-        <translation>L'indirizzo Vizeh per firmare il messaggio con</translation>
+        <source>The vizeh address to sign the message with</source>
+        <translation>L'indirizzo vizeh per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vizeh address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Vizeh</translation>
+        <source>Sign the message to prove you own this vizeh address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo vizeh</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The Vizeh address the message was signed with</source>
-        <translation>L'indirizzo Vizeh con cui è stato firmato il messaggio</translation>
+        <source>The vizeh address the message was signed with</source>
+        <translation>L'indirizzo vizeh con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Vizeh address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Vizeh specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified vizeh address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo vizeh specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -562,16 +562,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     <message>
-        <source>Send coins to a Vizeh address</source>
-        <translation>Invia monete all' indirizzo Vizeh</translation>
+        <source>Send coins to a vizeh address</source>
+        <translation>Invia monete all' indirizzo vizeh</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Vizeh: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e Vizeh: URIs)</translation>
+        <source>Request payments (generates QR codes and vizeh: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e vizeh: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -582,20 +582,20 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>Show information about Vizeh Core</source>
-        <translation>Visualizza informazioni su Vizeh Core</translation>
+        <source>Show information about vizeh Core</source>
+        <translation>Visualizza informazioni su vizeh Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Vizeh</source>
-        <translation>Modifica le opzioni di configurazione per Vizeh</translation>
+        <source>Modify configuration options for vizeh</source>
+        <translation>Modifica le opzioni di configurazione per vizeh</translation>
     </message>
     <message>
-        <source>Sign messages with your Vizeh addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi Vizeh per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your vizeh addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi vizeh per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Vizeh addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi Vizeh specifici</translation>
+        <source>Verify messages to ensure they were signed with specified vizeh addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi vizeh specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -606,16 +606,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a Vizeh: URI or payment request</source>
-        <translation>Apri un Vizeh: URI o richiesta di pagamento</translation>
+        <source>Open a vizeh: URI or payment request</source>
+        <translation>Apri un vizeh: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the Vizeh Core help message to get a list with possible Vizeh command-line options</source>
-        <translation>Mostra il messaggio di aiuto Vizeh Core per ottenere un elenco con le possibili opzioni di riga di comando Vizeh</translation>
+        <source>Show the vizeh Core help message to get a list with possible vizeh command-line options</source>
+        <translation>Mostra il messaggio di aiuto vizeh Core per ottenere un elenco con le possibili opzioni di riga di comando vizeh</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -716,15 +716,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -849,8 +849,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Vizeh address to sign the message with</source>
-        <translation>L'indirizzo Vizeh per firmare il messaggio con</translation>
+        <source>The vizeh address to sign the message with</source>
+        <translation>L'indirizzo vizeh per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -873,16 +873,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vizeh address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Vizeh</translation>
+        <source>Sign the message to prove you own this vizeh address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo vizeh</translation>
     </message>
     <message>
-        <source>The Vizeh address the message was signed with</source>
-        <translation>L'indirizzo Vizeh con cui è stato firmato il messaggio</translation>
+        <source>The vizeh address the message was signed with</source>
+        <translation>L'indirizzo vizeh con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Vizeh address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo specificato Vizeh</translation>
+        <source>Verify the message to ensure it was signed with the specified vizeh address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo specificato vizeh</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -920,8 +920,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     </context>
 <context>
@@ -980,7 +980,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>Vizeh-core</name>
+    <name>vizeh-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

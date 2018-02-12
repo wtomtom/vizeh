@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: vizeed.service
-Upstart: vizeed.conf
-OpenRC:  vizeed.openrc
-         vizeed.openrcconf
-CentOS:  vizeed.init
+SystemD: vizehd.service
+Upstart: vizehd.conf
+OpenRC:  vizehd.openrc
+         vizehd.openrcconf
+CentOS:  vizehd.init
 
 have been made available to assist packagers in creating node packages here.
 

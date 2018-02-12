@@ -1,12 +1,12 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The Vizeh developers
+// Copyright (c) 2017 The vizeh developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/Vizeh-config.h"
+#include "config/vizeh-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -76,11 +76,11 @@ void OptionsModel::Init()
     if (!settings.contains("nObfuscationRounds"))
         settings.setValue("nObfuscationRounds", 2);
 
-    if (!settings.contains("nAnonymizevizeeAmount"))
-        settings.setValue("nAnonymizevizeeAmount", 1000);
+    if (!settings.contains("nAnonymizevizehAmount"))
+        settings.setValue("nAnonymizevizehAmount", 1000);
 
     nObfuscationRounds = settings.value("nObfuscationRounds").toLongLong();
-    nAnonymizevizeeAmount = settings.value("nAnonymizevizeeAmount").toLongLong();
+    nAnonymizevizehAmount = settings.value("nAnonymizevizehAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -147,8 +147,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
-    if (settings.contains("nAnonymizevizeeAmount"))
-        SoftSetArg("-anonymizevizeeamount", settings.value("nAnonymizevizeeAmount").toString().toStdString());
+    if (settings.contains("nAnonymizevizehAmount"))
+        SoftSetArg("-anonymizevizehamount", settings.value("nAnonymizevizehAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -159,7 +159,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in Vizeh.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in vizeh.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -228,8 +228,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ObfuscationRounds:
             return QVariant(nObfuscationRounds);
-        case AnonymizevizeeAmount:
-            return QVariant(nAnonymizevizeeAmount);
+        case AnonymizevizehAmount:
+            return QVariant(nAnonymizevizehAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -338,10 +338,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nObfuscationRounds", nObfuscationRounds);
             emit obfuscationRoundsChanged(nObfuscationRounds);
             break;
-        case AnonymizevizeeAmount:
-            nAnonymizevizeeAmount = value.toInt();
-            settings.setValue("nAnonymizevizeeAmount", nAnonymizevizeeAmount);
-            emit anonymizevizeeAmountChanged(nAnonymizevizeeAmount);
+        case AnonymizevizehAmount:
+            nAnonymizevizehAmount = value.toInt();
+            settings.setValue("nAnonymizevizehAmount", nAnonymizevizehAmount);
+            emit anonymizevizehAmountChanged(nAnonymizevizehAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

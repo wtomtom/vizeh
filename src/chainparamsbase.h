@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between Vizeh-cli and vizeed)
- * of a given instance of the Vizeh system.
+ * CBaseChainParams defines the base parameters (shared between vizeh-cli and vizehd)
+ * of a given instance of the vizeh system.
  */
 class CBaseChainParams
 {

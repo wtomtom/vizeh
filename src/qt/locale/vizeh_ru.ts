@@ -58,12 +58,12 @@
         <translation>Отправка адресов</translation>
     </message>
     <message>
-        <source>These are your Vizeh addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши Vizeh-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your vizeh addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши vizeh-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your Vizeh addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши Vizeh-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your vizeh addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши vizeh-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,8 +160,8 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>Vizeh will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
-        <translation>Vizeh сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Vizeh от кражи с использованием вредоносного ПО.</translation>
+        <source>vizeh will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
+        <translation>vizeh сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши vizeh от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -223,8 +223,8 @@
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The Vizeh address to sign the message with</source>
-        <translation>Адрес Vizeh для подписи сообщения с помощью</translation>
+        <source>The vizeh address to sign the message with</source>
+        <translation>Адрес vizeh для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -255,8 +255,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vizeh address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Vizeh</translation>
+        <source>Sign the message to prove you own this vizeh address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес vizeh</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -562,16 +562,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     <message>
-        <source>Send coins to a Vizeh address</source>
-        <translation>Отправить монеты на Vizeh адрес</translation>
+        <source>Send coins to a vizeh address</source>
+        <translation>Отправить монеты на vizeh адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Vizeh: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и Vizeh: URI)</translation>
+        <source>Request payments (generates QR codes and vizeh: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и vizeh: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -582,16 +582,16 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About Vizeh Core</source>
-        <translation>&amp;О Vizeh Core</translation>
+        <source>&amp;About vizeh Core</source>
+        <translation>&amp;О vizeh Core</translation>
     </message>
     <message>
-        <source>Show information about Vizeh Core</source>
-        <translation>Показать информацию о Vizeh Core</translation>
+        <source>Show information about vizeh Core</source>
+        <translation>Показать информацию о vizeh Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Vizeh</source>
-        <translation>Изменение параметров конфигурации Vizeh</translation>
+        <source>Modify configuration options for vizeh</source>
+        <translation>Изменение параметров конфигурации vizeh</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -630,12 +630,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Vizeh Core client</source>
-        <translation>Клиент Vizeh Core</translation>
+        <source>vizeh Core client</source>
+        <translation>Клиент vizeh Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Vizeh network</source>
-        <translation><numerusform>%n активное подключение к сети Vizeh</numerusform><numerusform>%n активных подключений к сети Vizeh</numerusform><numerusform>%n активных подключений к сети Vizeh</numerusform><numerusform>%n активных подключений к сети Vizeh</numerusform></translation>
+        <source>%n active connection(s) to vizeh network</source>
+        <translation><numerusform>%n активное подключение к сети vizeh</numerusform><numerusform>%n активных подключений к сети vizeh</numerusform><numerusform>%n активных подключений к сети vizeh</numerusform><numerusform>%n активных подключений к сети vizeh</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -753,8 +753,8 @@ Address: %4
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Vizeh.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (Vizeh.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (vizeh.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (vizeh.conf).</translation>
     </message>
 </context>
 <context>
@@ -962,8 +962,8 @@ Address: %4
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Vizeh address.</source>
-        <translation>Введенный адрес "%1" не является Vizeh адресом.</translation>
+        <source>The entered address "%1" is not a valid vizeh address.</source>
+        <translation>Введенный адрес "%1" не является vizeh адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1008,16 +1008,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Vizeh Core</source>
-        <translation>О Vizeh Core</translation>
+        <source>About vizeh Core</source>
+        <translation>О vizeh Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1059,16 +1059,16 @@ Address: %4
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Vizeh Core.</source>
-        <translation>Добро пожаловать в Vizeh Core.</translation>
+        <source>Welcome to vizeh Core.</source>
+        <translation>Добро пожаловать в vizeh Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Vizeh Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Vizeh Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where vizeh Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные vizeh Core.</translation>
     </message>
     <message>
-        <source>Vizeh Core will download and store a copy of the Vizeh block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Vizeh Core загрузит и сохранит копию цепочки блоков Vizeh. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>vizeh Core will download and store a copy of the vizeh block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>vizeh Core загрузит и сохранит копию цепочки блоков vizeh. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1079,8 +1079,8 @@ Address: %4
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1237,12 +1237,12 @@ Address: %4
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Vizeh addresses after it matures.
-To Add: enter percentage to give and Vizeh address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other vizeh addresses after it matures.
+To Add: enter percentage to give and vizeh address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и удерживание, после их созревания, на другие Vizeh адреса.
-Для добавления: введите передаваемый процент и Vizeh адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и удерживание, после их созревания, на другие vizeh адреса.
+Для добавления: введите передаваемый процент и vizeh адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1412,16 +1412,16 @@ Please check the address and try again.</source>
         <translation>Настройка Перемешивания</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Vizeh's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки Vizeh.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening vizeh's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки vizeh.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Vizeh's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки Vizeh.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening vizeh's configuration screen.</source>
+        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки vizeh.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Vizeh's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки Vizeh.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening vizeh's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки vizeh.</translation>
     </message>
 </context>
 <context>
@@ -1482,8 +1482,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the Vizeh client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт Vizeh через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the vizeh client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт vizeh через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1502,12 +1502,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start Vizeh after logging in to the system.</source>
-        <translation>Автоматически запускать Vizeh после входа в систему.</translation>
+        <source>Automatically start vizeh after logging in to the system.</source>
+        <translation>Автоматически запускать vizeh после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start Vizeh on system login</source>
-        <translation>&amp;Запускать Vizeh при входе в систему</translation>
+        <source>&amp;Start vizeh on system login</source>
+        <translation>&amp;Запускать vizeh при входе в систему</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1522,8 +1522,8 @@ Please check the address and try again.</source>
         <translation>При достижении этого значения Перемешивание будет отключено.</translation>
     </message>
     <message>
-        <source>Amount of Vizeh to keep anonymized</source>
-        <translation>Количество Vizeh, держащихся анонимизированными</translation>
+        <source>Amount of vizeh to keep anonymized</source>
+        <translation>Количество vizeh, держащихся анонимизированными</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1550,8 +1550,8 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Vizeh.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Vizeh.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting vizeh.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска vizeh.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1564,8 +1564,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Vizeh network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети Vizeh через SOCKS5 прокси.</translation>
+        <source>Connect to the vizeh network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети vizeh через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1803,8 +1803,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Vizeh address to sign the message with</source>
-        <translation>Адрес Vizeh для подписи сообщения с помощью</translation>
+        <source>The vizeh address to sign the message with</source>
+        <translation>Адрес vizeh для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1827,8 +1827,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vizeh address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Vizeh</translation>
+        <source>Sign the message to prove you own this vizeh address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес vizeh</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1866,8 +1866,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     </context>
 <context>
@@ -1962,7 +1962,7 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
     </message>
     </context>
 <context>
-    <name>Vizeh-core</name>
+    <name>vizeh-core</name>
     <message>
         <source>Block creation options:</source>
         <translation>Варианты создания блока:</translation>
@@ -1992,8 +1992,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Vizeh Core Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики Vizeh Core</translation>
+        <source>Copyright (C) 2015-%i The vizeh Core Developers</source>
+        <translation>Copyright (C) 2015-%i Разработчики vizeh Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

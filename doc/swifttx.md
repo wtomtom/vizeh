@@ -12,8 +12,8 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via SwiftTX
 
 This mechanism has been integrated into Bitcore-Node-VZH which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/VZH-Project/insight-api-Vizeh#web-socket-api](https://github.com/VZH-Project/insight-api-Vizeh#web-socket-api) 
-* API: [https://github.com/VZH-Project/insight-api-Vizeh#swifttx-transactions](https://github.com/VZH-Project/insight-api-Vizeh#swifttx-transactions) 
+* WebSocket: [https://github.com/VZH-Project/insight-api-vizeh#web-socket-api](https://github.com/VZH-Project/insight-api-vizeh#web-socket-api) 
+* API: [https://github.com/VZH-Project/insight-api-vizeh#swifttx-transactions](https://github.com/VZH-Project/insight-api-vizeh#swifttx-transactions) 
 
 ####Command line option
 

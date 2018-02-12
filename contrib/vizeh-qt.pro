@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/Vizeh-config.h \
+           src/vizeh-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/Vizeh-config.h \
+           src/config/vizeh-config.h \
            src/crypto/common.h \
 		   src/crypto/scrypt.h \
            src/crypto/hmac_sha256.h \
@@ -340,7 +340,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/Vizeh.moc \
+           src/qt/vizeh.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -381,9 +381,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/Vizeh-cli.cpp \
-           src/Vizeh-tx.cpp \
-           src/Vizeh.cpp \
+           src/vizeh-cli.cpp \
+           src/vizeh-tx.cpp \
+           src/vizeh.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -486,8 +486,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/Vizeh.cpp \
-           src/qt/vizeestrings.cpp \
+           src/qt/vizeh.cpp \
+           src/qt/vizehstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -565,7 +565,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_vizee.cpp \
+           src/test/test_vizeh.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -656,21 +656,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/Vizeh.qrc src/qt/vizee_locale.qrc
+RESOURCES += src/qt/vizeh.qrc src/qt/vizeh_locale.qrc
 
-TRANSLATIONS += src/qt/locale/vizee_bg.ts \
-                src/qt/locale/vizee_de.ts \
-                src/qt/locale/vizee_en.ts \
-                src/qt/locale/vizee_es.ts \
-                src/qt/locale/vizee_fi.ts \
-                src/qt/locale/vizee_fr.ts \
-                src/qt/locale/vizee_it.ts \
-                src/qt/locale/vizee_ja.ts \
-                src/qt/locale/vizee_pl.ts \
-                src/qt/locale/vizee_pt.ts \
-                src/qt/locale/vizee_ru.ts \
-                src/qt/locale/vizee_sk.ts \
-                src/qt/locale/vizee_sv.ts \
-                src/qt/locale/vizee_vi.ts \
-                src/qt/locale/vizee_zh_CN.ts \
-                src/qt/locale/vizee_zh_TW.ts
+TRANSLATIONS += src/qt/locale/vizeh_bg.ts \
+                src/qt/locale/vizeh_de.ts \
+                src/qt/locale/vizeh_en.ts \
+                src/qt/locale/vizeh_es.ts \
+                src/qt/locale/vizeh_fi.ts \
+                src/qt/locale/vizeh_fr.ts \
+                src/qt/locale/vizeh_it.ts \
+                src/qt/locale/vizeh_ja.ts \
+                src/qt/locale/vizeh_pl.ts \
+                src/qt/locale/vizeh_pt.ts \
+                src/qt/locale/vizeh_ru.ts \
+                src/qt/locale/vizeh_sk.ts \
+                src/qt/locale/vizeh_sv.ts \
+                src/qt/locale/vizeh_vi.ts \
+                src/qt/locale/vizeh_zh_CN.ts \
+                src/qt/locale/vizeh_zh_TW.ts

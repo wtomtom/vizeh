@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Vizeh"
-            VALUE "FileDescription",    "Vizeh Core (OSS GUI client for Vizeh)"
+            VALUE "CompanyName",        "vizeh"
+            VALUE "FileDescription",    "vizeh Core (OSS GUI client for vizeh)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "Vizeh-qt"
+            VALUE "InternalName",       "vizeh-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "Vizeh-qt.exe"
-            VALUE "ProductName",        "Vizeh Core"
+            VALUE "OriginalFilename",   "vizeh-qt.exe"
+            VALUE "ProductName",        "vizeh Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

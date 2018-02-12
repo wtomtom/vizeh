@@ -17,7 +17,7 @@ osx=true
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/wtomtom/Vizeh
+url=https://github.com/wtomtom/vizeh
 proc=2
 mem=2000
 lxc=true
@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the Vizeh, gitian-builder, gitian.sigs, and Vizeh-detached-sigs.
+Run this script from the directory containing the vizeh, gitian-builder, gitian.sigs, and vizeh-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -39,7 +39,7 @@ version		Version number, commit, or branch to build. If building a commit or bra
 
 Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
--u|--url	Specify the URL of the repository. Default is https://github.com/wtomtom/Vizeh
+-u|--url	Specify the URL of the repository. Default is https://github.com/wtomtom/vizeh
 -v|--verify 	Verify the gitian build
 -b|--build	Do a gitian build
 -s|--sign	Make signed binaries for Windows and Mac OSX
@@ -233,7 +233,7 @@ if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
     git clone https://github.com/wtomtom/gitian.sigs.git
-    git clone https://github.com/wtomtom/Vizeh-detached-sigs.git
+    git clone https://github.com/wtomtom/vizeh-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -247,7 +247,7 @@ then
 fi
 
 # Set up build
-pushd ./Vizeh
+pushd ./vizeh
 git fetch
 git checkout ${COMMIT}
 popd
@@ -256,7 +256,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./Vizeh-binaries/${VERSION}
+	mkdir -p ./vizeh-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -266,7 +266,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../Vizeh/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../vizeh/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -274,9 +274,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit Vizeh=${COMMIT} --url Vizeh=${url} ../Vizeh/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../Vizeh/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/Vizeh-*.tar.gz build/out/src/Vizeh-*.tar.gz ../Vizeh-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit vizeh=${COMMIT} --url vizeh=${url} ../vizeh/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../vizeh/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/vizeh-*.tar.gz build/out/src/vizeh-*.tar.gz ../vizeh-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -284,10 +284,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit Vizeh=${COMMIT} --url Vizeh=${url} ../Vizeh/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../Vizeh/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/Vizeh-*-win-unsigned.tar.gz inputs/Vizeh-win-unsigned.tar.gz
-	    mv build/out/Vizeh-*.zip build/out/Vizeh-*.exe ../Vizeh-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit vizeh=${COMMIT} --url vizeh=${url} ../vizeh/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../vizeh/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/vizeh-*-win-unsigned.tar.gz inputs/vizeh-win-unsigned.tar.gz
+	    mv build/out/vizeh-*.zip build/out/vizeh-*.exe ../vizeh-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -295,10 +295,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit Vizeh=${COMMIT} --url Vizeh=${url} ../Vizeh/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../Vizeh/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/Vizeh-*-osx-unsigned.tar.gz inputs/Vizeh-osx-unsigned.tar.gz
-	    mv build/out/Vizeh-*.tar.gz build/out/Vizeh-*.dmg ../Vizeh-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit vizeh=${COMMIT} --url vizeh=${url} ../vizeh/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../vizeh/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/vizeh-*-osx-unsigned.tar.gz inputs/vizeh-osx-unsigned.tar.gz
+	    mv build/out/vizeh-*.tar.gz build/out/vizeh-*.dmg ../vizeh-binaries/${VERSION}
 	fi
 	popd
 
@@ -325,27 +325,27 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../Vizeh/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../vizeh/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../Vizeh/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../vizeh/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../Vizeh/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../vizeh/contrib/gitian-descriptors/gitian-osx.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../Vizeh/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../vizeh/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../Vizeh/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../vizeh/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -360,10 +360,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../Vizeh/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../Vizeh/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/Vizeh-*win64-setup.exe ../Vizeh-binaries/${VERSION}
-	    mv build/out/Vizeh-*win32-setup.exe ../Vizeh-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../vizeh/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../vizeh/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/vizeh-*win64-setup.exe ../vizeh-binaries/${VERSION}
+	    mv build/out/vizeh-*win32-setup.exe ../vizeh-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -371,9 +371,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../Vizeh/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../Vizeh/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/Vizeh-osx-signed.dmg ../Vizeh-binaries/${VERSION}/Vizeh-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../vizeh/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../vizeh/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/vizeh-osx-signed.dmg ../vizeh-binaries/${VERSION}/vizeh-${VERSION}-osx.dmg
 	fi
 	popd
 

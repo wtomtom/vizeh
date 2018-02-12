@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
-This issue tracker is only for technical issues related to Vizeh Core.
-General Vizeh questions and/or support requests and are best directed to the [Vizeh Slack](http://Vizeh.slack.com).
+This issue tracker is only for technical issues related to vizeh Core.
+General vizeh questions and/or support requests and are best directed to the [vizeh Slack](http://vizeh.slack.com).
 
 ### Describe the issue
 
@@ -20,7 +20,7 @@ Tell us what happens instead
 ### Screenshots.
 If the issue is related to the GUI, screenshots can be added to this issue via drag & drop.
 
-### What version of Vizeh Core are you using?
+### What version of vizeh Core are you using?
 List the version number/commit ID, and if it is an official binary, self compiled or a distribution package.
 
 ### Machine specs:

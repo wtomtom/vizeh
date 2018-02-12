@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += vizeed
+  bin_PROGRAMS += vizehd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += Vizeh-cli Vizeh-tx
+  bin_PROGRAMS += vizeh-cli vizeh-tx
 endif
 
 .PHONY: FORCE
-# Vizeh core #
+# vizeh core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -179,7 +179,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between vizeed and Vizeh-qt
+# server: shared between vizehd and vizeh-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -223,7 +223,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between vizeed and Vizeh-qt, but only linked
+# wallet: shared between vizehd and vizeh-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -318,7 +318,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between vizeed, and Vizeh-qt and non-server tools
+# common: shared between vizehd, and vizeh-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -374,7 +374,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between Vizeh-cli and Vizeh-qt
+# cli: shared between vizeh-cli and vizeh-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -384,7 +384,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-vizeed_LDADD = \
+vizehd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -395,40 +395,40 @@ vizeed_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-vizeed_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+vizehd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-vizeed_LDADD += libbitcoin_wallet.a
+vizehd_LDADD += libbitcoin_wallet.a
 endif
-vizeed_SOURCES = vizeed.cpp
+vizehd_SOURCES = vizehd.cpp
 #
 
 if TARGET_WINDOWS
-vizeed_SOURCES += vizeed-res.rc
+vizehd_SOURCES += vizehd-res.rc
 endif
 
-vizeed_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-vizeed_CPPFLAGS = $(BITCOIN_INCLUDES)
-vizeed_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+vizehd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+vizehd_CPPFLAGS = $(BITCOIN_INCLUDES)
+vizehd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# Vizeh-cli binary #
-vizee_cli_LDADD = \
+# vizeh-cli binary #
+vizeh_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-vizee_cli_SOURCES = \
-  Vizeh-cli.cpp
+vizeh_cli_SOURCES = \
+  vizeh-cli.cpp
 
-vizee_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+vizeh_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# Vizeh-tx binary #
-vizee_tx_LDADD = \
+# vizeh-tx binary #
+vizeh_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -437,15 +437,15 @@ vizee_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-vizee_tx_SOURCES = Vizeh-tx.cpp
-vizee_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+vizeh_tx_SOURCES = vizeh-tx.cpp
+vizeh_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-vizee_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+vizeh_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-vizee_cli_SOURCES += Vizeh-cli-res.rc
+vizeh_cli_SOURCES += vizeh-cli-res.rc
 endif
-vizee_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+vizeh_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

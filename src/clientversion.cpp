@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both vizeed and Vizeh-qt, to make it harder for attackers to
+ * for both vizehd and vizeh-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Vizeh Core");
+const std::string CLIENT_NAME("vizeh Core");
 
 /**
  * Client version number

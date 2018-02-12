@@ -1,6 +1,6 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The Vizeh developers
+// Copyright (c) 2017 The vizeh developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -14,7 +14,7 @@
 #include "spork.h"
 
 //
-// Bootup the Masternode, look for a 5000 Vizeh input and register on the network
+// Bootup the Masternode, look for a 5000 vizeh input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {

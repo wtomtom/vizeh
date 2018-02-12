@@ -1,6 +1,6 @@
 [Protocol]
-exec=Vizeh-qt '%u'
-protocol=Vizeh
+exec=vizeh-qt '%u'
+protocol=vizeh
 input=none
 output=none
 helper=true

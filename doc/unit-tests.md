@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with 'make check'.
 
-To run the vizeed tests manually, launch src/test/test_vizee .
+To run the vizehd tests manually, launch src/test/test_vizeh .
 
-To add more vizeed tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more vizehd tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the test/ directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the Vizeh-qt tests manually, launch src/qt/test/Vizeh-qt_test
+To run the vizeh-qt tests manually, launch src/qt/test/vizeh-qt_test
 
-To add more Vizeh-qt tests, add them to the `src/qt/test/` directory and
+To add more vizeh-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

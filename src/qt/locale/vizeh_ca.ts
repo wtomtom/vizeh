@@ -214,16 +214,16 @@
         <translation>&amp;Eines</translation>
     </message>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     <message>
-        <source>&amp;About Vizeh Core</source>
-        <translation>&amp;Sobre Vizeh Core</translation>
+        <source>&amp;About vizeh Core</source>
+        <translation>&amp;Sobre vizeh Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Vizeh network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Vizeh</numerusform><numerusform>%n connexions actives a la xarxa Vizeh</numerusform></translation>
+        <source>%n active connection(s) to vizeh network</source>
+        <translation><numerusform>%n connexió activa a la xarxa vizeh</numerusform><numerusform>%n connexions actives a la xarxa vizeh</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -392,12 +392,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     <message>
-        <source>About Vizeh Core</source>
-        <translation>Sobre Vizeh Core</translation>
+        <source>About vizeh Core</source>
+        <translation>Sobre vizeh Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -415,12 +415,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Vizeh Core.</source>
-        <translation>Benvingut a Vizeh Core.</translation>
+        <source>Welcome to vizeh Core.</source>
+        <translation>Benvingut a vizeh Core.</translation>
     </message>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -888,8 +888,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1040,7 +1040,7 @@
     </message>
     </context>
 <context>
-    <name>Vizeh-core</name>
+    <name>vizeh-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

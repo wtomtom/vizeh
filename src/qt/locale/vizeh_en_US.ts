@@ -62,12 +62,12 @@
         <translation>Receiving addresses</translation>
     </message>
     <message>
-        <source>These are your Vizeh addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Vizeh addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your vizeh addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your vizeh addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
-        <source>These are your Vizeh addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your Vizeh addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your vizeh addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your vizeh addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Confirm wallet encryption</translation>
     </message>
     <message>
-        <source>Vizeh will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
-        <translation>Vizeh will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</translation>
+        <source>vizeh will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
+        <translation>vizeh will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Encrypt</translation>
     </message>
     <message>
-        <source>Enter a Vizeh Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Enter a Vizeh Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
+        <source>Enter a vizeh Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Enter a vizeh Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Address:</translation>
     </message>
     <message>
-        <source>The Vizeh address to sign the message with</source>
-        <translation>The Vizeh address to sign the message with</translation>
+        <source>The vizeh address to sign the message with</source>
+        <translation>The vizeh address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vizeh address</source>
-        <translation>Sign the message to prove you own this Vizeh address</translation>
+        <source>Sign the message to prove you own this vizeh address</source>
+        <translation>Sign the message to prove you own this vizeh address</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</translation>
     </message>
     <message>
-        <source>The Vizeh address the message was signed with</source>
-        <translation>The Vizeh address the message was signed with</translation>
+        <source>The vizeh address the message was signed with</source>
+        <translation>The vizeh address the message was signed with</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Vizeh address</source>
-        <translation>Verify the message to ensure it was signed with the specified Vizeh address</translation>
+        <source>Verify the message to ensure it was signed with the specified vizeh address</source>
+        <translation>Verify the message to ensure it was signed with the specified vizeh address</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,16 +602,16 @@
         <translation>Tabs toolbar</translation>
     </message>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     <message>
-        <source>Send coins to a Vizeh address</source>
-        <translation>Send coins to a Vizeh address</translation>
+        <source>Send coins to a vizeh address</source>
+        <translation>Send coins to a vizeh address</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Vizeh: URIs)</source>
-        <translation>Request payments (generates QR codes and Vizeh: URIs)</translation>
+        <source>Request payments (generates QR codes and vizeh: URIs)</source>
+        <translation>Request payments (generates QR codes and vizeh: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -622,24 +622,24 @@
         <translation>Browse masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Vizeh Core</source>
-        <translation>&amp;About Vizeh Core</translation>
+        <source>&amp;About vizeh Core</source>
+        <translation>&amp;About vizeh Core</translation>
     </message>
     <message>
-        <source>Show information about Vizeh Core</source>
-        <translation>Show information about Vizeh Core</translation>
+        <source>Show information about vizeh Core</source>
+        <translation>Show information about vizeh Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Vizeh</source>
-        <translation>Modify configuration options for Vizeh</translation>
+        <source>Modify configuration options for vizeh</source>
+        <translation>Modify configuration options for vizeh</translation>
     </message>
     <message>
-        <source>Sign messages with your Vizeh addresses to prove you own them</source>
-        <translation>Sign messages with your Vizeh addresses to prove you own them</translation>
+        <source>Sign messages with your vizeh addresses to prove you own them</source>
+        <translation>Sign messages with your vizeh addresses to prove you own them</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Vizeh addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Vizeh addresses</translation>
+        <source>Verify messages to ensure they were signed with specified vizeh addresses</source>
+        <translation>Verify messages to ensure they were signed with specified vizeh addresses</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -670,8 +670,8 @@
         <translation>Open Masternode configuration file</translation>
     </message>
     <message>
-        <source>Open a Vizeh: URI or payment request</source>
-        <translation>Open a Vizeh: URI or payment request</translation>
+        <source>Open a vizeh: URI or payment request</source>
+        <translation>Open a vizeh: URI or payment request</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -682,16 +682,16 @@
         <translation>Block explorer window</translation>
     </message>
     <message>
-        <source>Show the Vizeh Core help message to get a list with possible Vizeh command-line options</source>
-        <translation>Show the Vizeh Core help message to get a list with possible Vizeh command-line options</translation>
+        <source>Show the vizeh Core help message to get a list with possible vizeh command-line options</source>
+        <translation>Show the vizeh Core help message to get a list with possible vizeh command-line options</translation>
     </message>
     <message>
-        <source>Vizeh Core client</source>
-        <translation>Vizeh Core client</translation>
+        <source>vizeh Core client</source>
+        <translation>vizeh Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Vizeh network</source>
-        <translation><numerusform>%n active connection(s) to Vizeh network</numerusform><numerusform>%n active connection(s) to Vizeh network</numerusform></translation>
+        <source>%n active connection(s) to vizeh network</source>
+        <translation><numerusform>%n active connection(s) to vizeh network</numerusform><numerusform>%n active connection(s) to vizeh network</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -837,8 +837,8 @@ Address: %4
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Vizeh.conf).</source>
-        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Vizeh.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (vizeh.conf).</source>
+        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (vizeh.conf).</translation>
     </message>
 </context>
 <context>
@@ -1138,8 +1138,8 @@ Address: %4
         <translation>Edit sending address</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Vizeh address.</source>
-        <translation>The entered address "%1" is not a valid Vizeh address.</translation>
+        <source>The entered address "%1" is not a valid vizeh address.</source>
+        <translation>The entered address "%1" is not a valid vizeh address.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1184,16 +1184,16 @@ Address: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Vizeh Core</source>
-        <translation>About Vizeh Core</translation>
+        <source>About vizeh Core</source>
+        <translation>About vizeh Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1239,16 +1239,16 @@ Address: %4
         <translation>Welcome</translation>
     </message>
     <message>
-        <source>Welcome to Vizeh Core.</source>
-        <translation>Welcome to Vizeh Core.</translation>
+        <source>Welcome to vizeh Core.</source>
+        <translation>Welcome to vizeh Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Vizeh Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Vizeh Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where vizeh Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where vizeh Core will store its data.</translation>
     </message>
     <message>
-        <source>Vizeh Core will download and store a copy of the Vizeh block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Vizeh Core will download and store a copy of the Vizeh block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>vizeh Core will download and store a copy of the vizeh block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>vizeh Core will download and store a copy of the vizeh block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1259,8 +1259,8 @@ Address: %4
         <translation>Use a custom data directory:</translation>
     </message>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1417,12 +1417,12 @@ Address: %4
         <translation>Enter Address to Send to</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Vizeh addresses after it matures.
-To Add: enter percentage to give and Vizeh address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other vizeh addresses after it matures.
+To Add: enter percentage to give and vizeh address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Vizeh addresses after it matures.
-To Add: enter percentage to give and Vizeh address to add to the MultiSend vector.
+        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other vizeh addresses after it matures.
+To Add: enter percentage to give and vizeh address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</translation>
     </message>
@@ -1592,16 +1592,16 @@ Please check the address and try again.</translation>
         <translation>Obfuscation Configuration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Vizeh's configuration screen.</source>
-        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Vizeh's configuration screen.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening vizeh's configuration screen.</source>
+        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening vizeh's configuration screen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Vizeh's configuration screen.</source>
-        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Vizeh's configuration screen.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening vizeh's configuration screen.</source>
+        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening vizeh's configuration screen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Vizeh's configuration screen.</source>
-        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Vizeh's configuration screen.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening vizeh's configuration screen.</source>
+        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening vizeh's configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1662,8 +1662,8 @@ Please check the address and try again.</translation>
         <translation>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</translation>
     </message>
     <message>
-        <source>Automatically open the Vizeh client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Vizeh client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the vizeh client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the vizeh client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1682,12 +1682,12 @@ Please check the address and try again.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Vizeh after logging in to the system.</source>
-        <translation>Automatically start Vizeh after logging in to the system.</translation>
+        <source>Automatically start vizeh after logging in to the system.</source>
+        <translation>Automatically start vizeh after logging in to the system.</translation>
     </message>
     <message>
-        <source>&amp;Start Vizeh on system login</source>
-        <translation>&amp;Start Vizeh on system login</translation>
+        <source>&amp;Start vizeh on system login</source>
+        <translation>&amp;Start vizeh on system login</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1702,8 +1702,8 @@ Please check the address and try again.</translation>
         <translation>This amount acts as a threshold to turn off Obfuscation once it's reached.</translation>
     </message>
     <message>
-        <source>Amount of Vizeh to keep anonymized</source>
-        <translation>Amount of Vizeh to keep anonymized</translation>
+        <source>Amount of vizeh to keep anonymized</source>
+        <translation>Amount of vizeh to keep anonymized</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1730,8 +1730,8 @@ Please check the address and try again.</translation>
         <translation>&amp;Network</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Vizeh.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Vizeh.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting vizeh.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting vizeh.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1744,8 +1744,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Vizeh network through a SOCKS5 proxy.</source>
-        <translation>Connect to the Vizeh network through a SOCKS5 proxy.</translation>
+        <source>Connect to the vizeh network through a SOCKS5 proxy.</source>
+        <translation>Connect to the vizeh network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1899,8 +1899,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Balances</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vizeh network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Vizeh network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the vizeh network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the vizeh network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -2108,12 +2108,12 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Invalid payment address %1</translation>
     </message>
     <message>
-        <source>Cannot start Vizeh: click-to-pay handler</source>
-        <translation>Cannot start Vizeh: click-to-pay handler</translation>
+        <source>Cannot start vizeh: click-to-pay handler</source>
+        <translation>Cannot start vizeh: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Vizeh address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid Vizeh address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid vizeh address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid vizeh address or malformed URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2198,8 +2198,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Amount</translation>
     </message>
     <message>
-        <source>Enter a Vizeh address (e.g. %1)</source>
-        <translation>Enter a Vizeh address (e.g. %1)</translation>
+        <source>Enter a vizeh address (e.g. %1)</source>
+        <translation>Enter a vizeh address (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2332,8 +2332,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the Vizeh debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Vizeh debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the vizeh debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the vizeh debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2500,8 +2500,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the Vizeh RPC console.</source>
-        <translation>Welcome to the Vizeh RPC console.</translation>
+        <source>Welcome to the vizeh RPC console.</source>
+        <translation>Welcome to the vizeh RPC console.</translation>
     </message>
     <message>
         <source>Wallet in use: </source>
@@ -2575,12 +2575,12 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>An optional label to associate with the new receiving address.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Vizeh network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Vizeh network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the vizeh network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the vizeh network.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Vizeh network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Vizeh network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the vizeh network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the vizeh network.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2868,8 +2868,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>If the custom fee is set to 1000 uVSXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVSXs in fee,&lt;br /&gt;while "total at least" pays 1000 uVSXs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Vizeh transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Vizeh transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for vizeh transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for vizeh transactions than the network can process.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2972,8 +2972,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>anonymous funds</translation>
     </message>
     <message>
-        <source>Warning: Invalid Vizeh address</source>
-        <translation>Warning: Invalid Vizeh address</translation>
+        <source>Warning: Invalid vizeh address</source>
+        <translation>Warning: Invalid vizeh address</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3079,8 +3079,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Pay &amp;To:</translation>
     </message>
     <message>
-        <source>The Vizeh address to send the payment to</source>
-        <translation>The Vizeh address to send the payment to</translation>
+        <source>The vizeh address to send the payment to</source>
+        <translation>The vizeh address to send the payment to</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3119,8 +3119,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Message:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Vizeh: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vizeh network.</source>
-        <translation>A message that was attached to the Vizeh: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vizeh network.</translation>
+        <source>A message that was attached to the vizeh: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the vizeh network.</source>
+        <translation>A message that was attached to the vizeh: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the vizeh network.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3146,8 +3146,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Vizeh Core is shutting down...</source>
-        <translation>Vizeh Core is shutting down...</translation>
+        <source>vizeh Core is shutting down...</source>
+        <translation>vizeh Core is shutting down...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3169,8 +3169,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
-        <source>The Vizeh address to sign the message with</source>
-        <translation>The Vizeh address to sign the message with</translation>
+        <source>The vizeh address to sign the message with</source>
+        <translation>The vizeh address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3201,16 +3201,16 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vizeh address</source>
-        <translation>Sign the message to prove you own this Vizeh address</translation>
+        <source>Sign the message to prove you own this vizeh address</source>
+        <translation>Sign the message to prove you own this vizeh address</translation>
     </message>
     <message>
-        <source>The Vizeh address the message was signed with</source>
-        <translation>The Vizeh address the message was signed with</translation>
+        <source>The vizeh address the message was signed with</source>
+        <translation>The vizeh address the message was signed with</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Vizeh address</source>
-        <translation>Verify the message to ensure it was signed with the specified Vizeh address</translation>
+        <source>Verify the message to ensure it was signed with the specified vizeh address</source>
+        <translation>Verify the message to ensure it was signed with the specified vizeh address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3296,8 +3296,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Vizeh Core</source>
-        <translation>Vizeh Core</translation>
+        <source>vizeh Core</source>
+        <translation>vizeh Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3312,8 +3312,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>The Dash Core developers</translation>
     </message>
     <message>
-        <source>The Vizeh Core developers</source>
-        <translation>The Vizeh Core developers</translation>
+        <source>The vizeh Core developers</source>
+        <translation>The vizeh Core developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3904,7 +3904,7 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
     </message>
 </context>
 <context>
-    <name>Vizeh-core</name>
+    <name>vizeh-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
@@ -3930,8 +3930,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Vizeh Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Vizeh Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. vizeh Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. vizeh Core is probably already running.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3950,8 +3950,8 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</translation>
     </message>
     <message>
-        <source>Disable all Vizeh specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all Vizeh specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all vizeh specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all vizeh specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4094,32 +4094,32 @@ https://www.transifex.com/wtomtom/wtomtom-translations</translation>
         <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use vizeed, or the -server option to Vizeh-qt, you must set an rpcpassword in the configuration file:
+        <source>To use vizehd, or the -server option to vizeh-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=vizeerpc
+rpcuser=vizehrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Vizeh Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "vizeh Alert" admin@foo.com
 </source>
-        <translation>To use vizeed, or the -server option to Vizeh-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use vizehd, or the -server option to vizeh-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=vizeerpc
+rpcuser=vizehrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Vizeh Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "vizeh Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Vizeh Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Vizeh Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. vizeh Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. vizeh Core is probably already running.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4146,8 +4146,8 @@ for example: alertnotify=echo %%s | mail -s "Vizeh Alert" admin@foo.com
         <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Vizeh Core will not work properly.</source>
-        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong Vizeh Core will not work properly.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong vizeh Core will not work properly.</source>
+        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong vizeh Core will not work properly.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4300,8 +4300,8 @@ for example: alertnotify=echo %%s | mail -s "Vizeh Alert" admin@foo.com
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Vizeh Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Vizeh Core Developers</translation>
+        <source>Copyright (C) 2015-%i The vizeh Core Developers</source>
+        <translation>Copyright (C) 2015-%i The vizeh Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4372,8 +4372,8 @@ for example: alertnotify=echo %%s | mail -s "Vizeh Alert" admin@foo.com
         <translation>Error loading wallet.dat: Wallet corrupted</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Vizeh Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Vizeh Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of vizeh Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of vizeh Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4484,8 +4484,8 @@ for example: alertnotify=echo %%s | mail -s "Vizeh Alert" admin@foo.com
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Vizeh Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Vizeh Core is shutting down.</translation>
+        <source>Initialization sanity check failed. vizeh Core is shutting down.</source>
+        <translation>Initialization sanity check failed. vizeh Core is shutting down.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5048,8 +5048,8 @@ for example: alertnotify=echo %%s | mail -s "Vizeh Alert" admin@foo.com
         <translation>Wallet is locked.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Vizeh Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart Vizeh Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart vizeh Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart vizeh Core to complete</translation>
     </message>
     <message>
         <source>Wallet options:</source>

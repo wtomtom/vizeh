@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Vizeh"
-            VALUE "FileDescription",    "vizeed (OSS daemon/client for Vizeh)"
+            VALUE "CompanyName",        "vizeh"
+            VALUE "FileDescription",    "vizehd (OSS daemon/client for vizeh)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "vizeed"
+            VALUE "InternalName",       "vizehd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "vizeed.exe"
-            VALUE "ProductName",        "vizeed"
+            VALUE "OriginalFilename",   "vizehd.exe"
+            VALUE "ProductName",        "vizehd"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

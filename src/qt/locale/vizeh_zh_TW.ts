@@ -208,6 +208,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Vizeh-core</name>
+    <name>vizeh-core</name>
     </context>
 </TS>

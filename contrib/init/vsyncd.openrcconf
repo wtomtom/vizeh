@@ -1,0 +1,26 @@
+# /etc/conf.d/vizeed: config file for /etc/init.d/vizeed
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/Vizeh/Vizeh.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/vizeed"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/vizeed.pid"
+
+# Where to write vizeed data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/vizeed"
+
+# User and group to own vizeed process
+#BITCOIND_USER="Vizeh"
+#BITCOIND_GROUP="Vizeh"
+
+# Path to vizeed executable
+#BITCOIND_BIN="/usr/bin/vizeed"
+
+# Nice value to run vizeed under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

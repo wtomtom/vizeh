@@ -1,0 +1,26 @@
+[Unit]
+Description=Vizeh's distributed currency daemon
+After=network.target
+
+[Service]
+User=Vizeh
+Group=Vizeh
+
+Type=forking
+PIDFile=/var/lib/vizeed/vizeed.pid
+
+ExecStart=/usr/bin/vizeed -daemon -pid=/var/lib/vizeed/vizeed.pid \
+          -conf=/etc/Vizeh/Vizeh.conf -datadir=/var/lib/vizeed
+
+ExecStop=-/usr/bin/Vizeh-cli -conf=/etc/Vizeh/Vizeh.conf \
+         -datadir=/var/lib/vizeed stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

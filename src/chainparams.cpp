@@ -45,7 +45,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-	(0, uint256("0x00000d80630223c471608c9a2d20281027a53ca5e9814db38a8fa14e377658a0"));
+	(0, uint256("0x00000b4e22d615eb5ffaa7087ef1dba4e0e1dd3e46c8235c7a4a8088d61bf12e"));
 	
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -95,7 +95,7 @@ public:
         nLastPOWBlock = 150;
         nMaturity = 50;
         nModifierUpdateBlock = 1;
-        const char* pszTimestamp = "vizeh NEXT MONEY REVOLUTION";
+        const char* pszTimestamp = "VIZEH NEXT MONEY REVOLUTION";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -108,11 +108,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1516748672;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 21705483;
+        genesis.nNonce = 21131915;
         hashGenesisBlock = genesis.GetHash();
 		
-        assert(hashGenesisBlock == uint256("0x00000d80630223c471608c9a2d20281027a53ca5e9814db38a8fa14e377658a0"));
-        assert(genesis.hashMerkleRoot == uint256("0xb52bd995991fdd6e5447e1ba97027396ea5fc431617da64b9ff0d72f6295ddc9"));
+        assert(hashGenesisBlock == uint256("0x00000b4e22d615eb5ffaa7087ef1dba4e0e1dd3e46c8235c7a4a8088d61bf12e"));
+        assert(genesis.hashMerkleRoot == uint256("0xdf68954ceeae2838f9c6cbfe1d301b0b881d09b9d5e47658cc54674d4198aa17"));
 		
         vSeeds.push_back(CDNSSeedData("0", "35.196.202.22"));
         vSeeds.push_back(CDNSSeedData("1", "35.229.123.206"));
